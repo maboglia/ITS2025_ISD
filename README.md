@@ -1,4 +1,9 @@
 # ITS2025_ISD
 Repo del corso ITS Insurance 2025
 
-[link questionario](https://forms.gle/ik5gZWsDne7xPqRs5)
+
+## Lezione del 13/01/2025
+
+prova da aula 4b
+
+
