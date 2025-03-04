@@ -6,15 +6,10 @@ import utilities.MioScanner;
 
 public class TodoView {
 
-	public static void main(String[] args) {//inizia il main
+	public static void main(String[] args) {
 		
 		MioScanner scanner = new MioScanner();
-		TodoController ctrl = creaBloccoNote(scanner);
-		stampaLista(ctrl);
-
-	}//finisce il main
-
-	private static TodoController creaBloccoNote(MioScanner scanner) {
+		
 		int numNote = scanner.leggiIntero("Quante note vuoi inserire?");
 		TodoController ctrl = new TodoController(numNote);
 		String risposta = null;
@@ -23,15 +18,18 @@ public class TodoView {
 			risposta = scanner.leggiStringa("Dammi la descrizione del Todo");
 			ctrl.addTodo(risposta, i);
 		}
-		return ctrl;
-	}
-
-	private static void stampaLista(TodoController ctrl) {
+		
+//		ctrl.addTodo("E' proprio l'ora", 0);
+//		ctrl.addTodo("Di andare in pausa", 1);
+		
+//		Todo[] laCopiaDellaLista = ctrl.getLista();
+		
 		for (Todo todo : ctrl.getLista()) {
 			System.out.println(todo);
 		}
+		
+		
+
 	}
 
-	
-	
-}//finisce la classe Todo
+}

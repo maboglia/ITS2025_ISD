@@ -21,7 +21,6 @@ public class MioScanner {
 	public int leggiIntero(String domanda) {
 		System.out.println(domanda);
 		int risposta = this.canon.nextInt();
-		
 		this.canon.nextLine();//consumare il fine linea
 
 		return risposta;
