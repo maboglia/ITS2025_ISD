@@ -1,0 +1,19 @@
+package autosalone;
+
+public class AutoDemo {
+
+	public static void main(String[] args) {
+
+		Automobile auto1 = new Automobile();
+		Automobile auto2 = new Automobile();
+		Automobile auto3 = new Automobile();
+		Automobile auto4 = new Automobile();
+		Automobile auto5 = new Automobile();
+		Automobile auto6 = new Automobile();
+		Automobile auto7 = new Automobile();
+		
+		
+
+	}
+
+}

@@ -1,0 +1,14 @@
+package controller;
+
+import model.Todo;
+
+public class TodoController {
+
+	private Todo[] lista;
+	
+	public TodoController() {
+		this.lista = new Todo[10];
+	}
+	
+	
+}

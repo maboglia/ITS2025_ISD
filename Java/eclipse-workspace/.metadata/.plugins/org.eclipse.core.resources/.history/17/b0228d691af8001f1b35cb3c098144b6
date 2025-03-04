@@ -1,0 +1,25 @@
+package demo;
+
+public class Counter {
+
+	int number;
+	
+	//metodo costruttore: si deve chiamare come l'oggetto che costruisce, non ha tipo di ritorno
+	public Counter(int valoreIniziale) {
+		System.out.println("Creazione dell'oggetto counter");
+		number = valoreIniziale;
+	}
+	
+	public void incrementa() {
+		number = number + 1;
+	}
+	
+	public void decrementa() {
+		number -= 1;
+	}
+	
+	public int getValoreCounter() {
+		return number;
+	}
+	
+}

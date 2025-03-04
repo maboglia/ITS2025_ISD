@@ -1,0 +1,13 @@
+package autosalone;
+
+public class AutoDemo {
+
+	public static void main(String[] args) {
+
+		Automobile auto1 = new Automobile("Ferrari", "California","Rosso",500_000, 10_000);
+
+		
+
+	}
+
+}

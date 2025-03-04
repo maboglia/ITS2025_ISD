@@ -1,0 +1,14 @@
+package autosalone;
+
+public class Automobile {
+
+	String marca;
+	String modello;
+	String colore;
+	double prezzo;
+	int km;
+	
+	
+	
+	
+}
