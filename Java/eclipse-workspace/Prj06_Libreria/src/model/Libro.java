@@ -68,11 +68,11 @@ public class Libro {
 		this.editore = editore;
 	}
 
-	@Override
-	public String toString() {
-		return "Libro [id=" + id + ", titolo=" + titolo + ", prezzo=" + prezzo + ", pagine=" + pagine + ", editore="
-				+ editore + "]";
-	}
+//	@Override
+//	public String toString() {
+//		return "Libro [id=" + id + ", titolo=" + titolo + ", prezzo=" + prezzo + ", pagine=" + pagine + ", editore="
+//				+ editore + "]";
+//	}
 	
 	
 }
