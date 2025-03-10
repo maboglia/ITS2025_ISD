@@ -10,9 +10,9 @@
     <fullyQualifiedTypeName name="java.io.PrintWriter"/>
     <fullyQualifiedTypeName name="java.io.File"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="utilities.MioScanner"/>
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
     <fullyQualifiedTypeName name="controller.TodoController"/>
     <fullyQualifiedTypeName name="view.TodoView"/>
     <fullyQualifiedTypeName name="model.Todo"/>
+    <fullyQualifiedTypeName name="utilities.MioScanner"/>
 </qualifiedTypeNameHistroy>
