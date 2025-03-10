@@ -27,6 +27,8 @@ public class Lettore {
 				
 				String[] parole = rigaFile.split(",");//spezzo la riga in parti
 				
+				//System.out.println("Titolo " + parole[1]);
+				
 				lettura[indice][0] = parole[0]; //id
 				lettura[indice][1] = parole[1]; //titolo
 				lettura[indice][2] = parole[2]; //prezzo
@@ -48,6 +50,8 @@ public class Lettore {
 	}
 	
 	
-	
+	public static void main(String[] args) {
+		leggiFile("documenti/libri.csv");
+	}
 	
 }
