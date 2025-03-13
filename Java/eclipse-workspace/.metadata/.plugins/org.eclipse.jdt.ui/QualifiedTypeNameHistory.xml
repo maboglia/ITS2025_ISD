@@ -4,10 +4,8 @@
     <fullyQualifiedTypeName name="java.time.LocalTime"/>
     <fullyQualifiedTypeName name="java.lang.Object"/>
     <fullyQualifiedTypeName name="controller.LibroMatricola"/>
-    <fullyQualifiedTypeName name="model.Dipendente"/>
     <fullyQualifiedTypeName name="demo.Counter"/>
     <fullyQualifiedTypeName name="autosalone.Automobile"/>
-    <fullyQualifiedTypeName name="java.time.LocalDate"/>
     <fullyQualifiedTypeName name="controller.TodoController"/>
     <fullyQualifiedTypeName name="view.TodoView"/>
     <fullyQualifiedTypeName name="model.Todo"/>
@@ -19,4 +17,12 @@
     <fullyQualifiedTypeName name="model.Libro"/>
     <fullyQualifiedTypeName name="java.io.PrintWriter"/>
     <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="model.Dirigente"/>
+    <fullyQualifiedTypeName name="controller.GestionaleCtrl"/>
+    <fullyQualifiedTypeName name="model.Fattorino"/>
+    <fullyQualifiedTypeName name="model.Impiegato"/>
+    <fullyQualifiedTypeName name="model.Dipendente"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>
