@@ -11,7 +11,7 @@ public class Dirigente extends Dipendente {
 	
 	public Dirigente(String nome, String cognome, LocalDate dataNascita) {
 		super(nome, cognome, dataNascita);
-		// TODO Auto-generated constructor stub
+		this.responsabileDi = new ArrayList<Dipendente>();
 	}
 
 	@Override

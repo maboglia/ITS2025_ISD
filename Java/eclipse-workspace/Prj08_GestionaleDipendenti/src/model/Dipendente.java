@@ -4,7 +4,9 @@ import java.time.LocalDate;
 
 public abstract class Dipendente {
 
+	//contatore static, serve per inizializzare la matricola dei dip
 	private static int counter = 1;
+	
 	protected int nMat;
 	protected String nome;
 	protected String cognome;
