@@ -1,0 +1,21 @@
+## Costrutti del linguaggio 12
+- Variabili, tipi di dati
+- Operatori, espressioni
+- Condizioni, cicli iterativi
+## Manipolazione stringhe e array 20
+- Funzioni
+- Programmazione ad oggetti in PHP
+- Gestione degli errori e delle eccezioni
+## Programmazione per il web 20
+- Creazione di API in PHP
+- Passaggio di dati e upload di file tramite form
+- Utilizzo di Cookie e Sessioni
+- Web API REST in JSON
+## Accesso ai dati 8
+- Gestione dei files
+- Accesso ai database (utilizzo di PDO)
+## Gestione dei progetti in PHP 8
+- Autoloading delle classi e utilizzo di Composer
+- Unit Test con PHPUnit
+## Verifica finale 4
+- Valutazione sulle competenze apprese durante il corso
