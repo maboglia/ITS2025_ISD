@@ -25,10 +25,16 @@ public class CorsoDAOImpl implements CorsoDAO {
 			int id = Integer.parseInt(strings[0]);
 			String nome = strings[1];
 			int ore = Integer.parseInt(strings[2]);
-			int docente_id = Integer.parseInt(strings[3]);
-			Docente docente = dao.findById(docente_id);
+			Docente docente = null;
+			if (!strings[3].equals("NULL")) {
+				int docente_id = Integer.parseInt(strings[3]);
+				
+				docente = dao.findById(docente_id);
+				
+			} 
+				
 			
-			corsi.add(new Corso(docente_id, nome, ore, docente));
+			corsi.add(new Corso(id, nome, ore, docente));
 		}
 		
 		
