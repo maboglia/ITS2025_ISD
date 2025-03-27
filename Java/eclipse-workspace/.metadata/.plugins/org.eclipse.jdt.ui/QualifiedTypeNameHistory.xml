@@ -21,9 +21,6 @@
     <fullyQualifiedTypeName name="java.util.Random"/>
     <fullyQualifiedTypeName name="repos.LibroDAO"/>
     <fullyQualifiedTypeName name="util.Lettore"/>
-    <fullyQualifiedTypeName name="model.Libro"/>
-    <fullyQualifiedTypeName name="java.util.Collections"/>
-    <fullyQualifiedTypeName name="java.lang.Comparable"/>
     <fullyQualifiedTypeName name="java.lang.Double"/>
     <fullyQualifiedTypeName name="model.Persona"/>
     <fullyQualifiedTypeName name="model.Studente"/>
@@ -35,11 +32,23 @@
     <fullyQualifiedTypeName name="model.Docente"/>
     <fullyQualifiedTypeName name="repos.DocenteDAO"/>
     <fullyQualifiedTypeName name="repos.DocenteDAOImpl"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="repos.CorsoDAO"/>
     <fullyQualifiedTypeName name="repos.CorsoDAOImpl"/>
     <fullyQualifiedTypeName name="services.CorsiService"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="model.Corso"/>
     <fullyQualifiedTypeName name="presentation.CorsiController"/>
+    <fullyQualifiedTypeName name="interfacce.Contratto"/>
+    <fullyQualifiedTypeName name="interfacce.MiaClasse"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="java.util.TreeSet"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="model.Libro"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="java.lang.Comparable"/>
+    <fullyQualifiedTypeName name="collezioni.ComparatorePrezzoAsc"/>
+    <fullyQualifiedTypeName name="java.util.Comparator"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
 </qualifiedTypeNameHistroy>
