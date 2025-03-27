@@ -3,6 +3,7 @@ package demo;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
+import java.util.Arrays;
 
 import controller.LibreriaCtrl;
 import model.Libro;
@@ -45,6 +46,23 @@ public class LibreriaDemo {
 
 
 			Libro[] libri = ctrl.getLibri();
+			
+			
+			System.out.println("-------------------------");
+
+			Arrays
+				.asList(libri)
+				.stream()
+				.filter(l -> l.getPrezzo() < 20)
+				.filter(l -> l.getPrezzo() > 10)
+				.forEach(System.out::println);
+			
+			System.out.println("-------------------------");
+			
+			
+			
+			
+			Arrays.sort(libri, (l1, l2) -> l1.getPagine() - l2.getPagine()  );
 			
 			stampante.println("<ul>");
 			for (Libro libro : libri) {
