@@ -2,9 +2,9 @@
 
 class Pokemon {
 
-    private $nome;
-    private $tipo1;
-    private $tipo2;
+    public $nome;
+    public $tipo1;
+    public $tipo2;
 
     public function __construct($nome, $tipo1, $tipo2){
         $this->nome = $nome;
