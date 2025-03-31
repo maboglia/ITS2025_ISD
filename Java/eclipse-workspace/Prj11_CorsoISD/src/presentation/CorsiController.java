@@ -24,4 +24,20 @@ public class CorsiController {
 		return risposta;
 	}
 	
+	public String corsiDB() {
+		String risposta = null;
+		
+		risposta += "<ol>\n";
+		
+		for (Corso c : service.getCorsiDB()) {
+			risposta += "<li>"  + c.getNome() + "</li>\n";
+		}
+		risposta += "</ol>\n";
+		
+		
+		return risposta;
+	}
+	
+	
+	
 }
