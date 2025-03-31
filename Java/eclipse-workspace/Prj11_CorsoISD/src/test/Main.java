@@ -7,7 +7,7 @@ public class Main {
 	public static void main(String[] args) {
 		CorsiController ctrl = new CorsiController();
 		
-		System.out.println(ctrl.corsiDB());
+		System.out.println(ctrl.getDocenteById(1));
 
 	}
 

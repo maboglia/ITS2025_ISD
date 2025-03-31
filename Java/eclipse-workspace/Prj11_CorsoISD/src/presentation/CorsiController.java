@@ -38,6 +38,8 @@ public class CorsiController {
 		return risposta;
 	}
 	
-	
+	public String getDocenteById(int id) {
+		return service.getDocenteById(id).toString();
+	}
 	
 }
