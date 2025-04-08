@@ -1,7 +1,15 @@
 <h1>Gallery</h1>
 
-<?php foreach ($piazze as $piazza) : ?>        
+<?php 
+    if (!isset($_SESSION['username'])){
+        die("Spiacenti! La visualizzazione è riservata agli utenti premium");
+    }
 
+
+?>
+
+<?php foreach ($piazze as $piazza) : ?>        
+   
     <figure>
     <img
         src="<?=$piazza['foto']?>"

@@ -27,6 +27,22 @@ $piazze = [
 session_start();
 
 
+if (isset($_POST['username'])   && isset($_POST['password'])  ) {
+
+    $username = $_POST['username'];
+    $password = $_POST['password'];
+
+    login($username, $password);
+
+}    
+
+function login($username, $password){
+     if ($username == 'mauro' && $password == '12345') {
+        $_SESSION['username'] = $username;
+    } else {
+        echo "<h2>Login non riuscito</h2>";
+    }
+}
 
 
 

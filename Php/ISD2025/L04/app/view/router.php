@@ -11,6 +11,10 @@ switch ($pagina) {
         include './app/view/contatti.php';
         break;
     
+    case 'logout':
+        unset($_SESSION['username']);
+        break;
+    
     default:
     include './app/view/home.php';
     break;
