@@ -41,8 +41,8 @@
 	<section name="quick_assist_proposal_size">
 	</section>
 	<section name="NewPackageCreationWizard.dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="1073"/>
-		<item key="DIALOG_Y_ORIGIN" value="357"/>
+		<item key="DIALOG_X_ORIGIN" value="1026"/>
+		<item key="DIALOG_Y_ORIGIN" value="402"/>
 		<item key="DIALOG_WIDTH" value="525"/>
 		<item key="DIALOG_HEIGHT" value="500"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
@@ -137,9 +137,10 @@
 		<item key="FatJarPackageWizardPage.ANTSCRIPT_SAVE" value="false"/>
 		<item key="FatJarPackageWizardPage.ANTSCRIPT_LOCATION" value="C:\Users\m.bogliaccino\Documents\ITS2025_ISD\Java\eclipse-workspace"/>
 		<item key="FatJarPackageWizardPage.LIBRARY_HANDLING" value="1"/>
-		<item key="FatJarPackageWizardPage.LAUNCH_CONFIGURATION_SELECTION_NAME" value="GiocoBello - Prj01_LanciaDadi"/>
-		<item key="FatJarPackageWizardPage.DESTINATION_PATH_SELECTION" value="C:\Users\m.bogliaccino\Desktop\Dadi.jar"/>
+		<item key="FatJarPackageWizardPage.LAUNCH_CONFIGURATION_SELECTION_NAME" value="Laboratorio - Laboratorio"/>
+		<item key="FatJarPackageWizardPage.DESTINATION_PATH_SELECTION" value="C:\Users\m.bogliaccino\Desktop\laboratorio.jar"/>
 		<list key="FatJarPackageWizardPage.DESTINATION_NAMES_ID">
+			<item value="C:\Users\m.bogliaccino\Desktop\laboratorio.jar"/>
 			<item value="C:\Users\m.bogliaccino\Desktop\Dadi.jar"/>
 		</list>
 		<list key="FatJarPackageWizardPage.ANTSCRIPT_LOCATION_HISTORY">
@@ -147,8 +148,8 @@
 			<item value=".xml"/>
 		</list>
 		<section name="FatJarPackageWizard.dialogBounds">
-			<item key="DIALOG_X_ORIGIN" value="1003"/>
-			<item key="DIALOG_Y_ORIGIN" value="367"/>
+			<item key="DIALOG_X_ORIGIN" value="408"/>
+			<item key="DIALOG_Y_ORIGIN" value="362"/>
 			<item key="DIALOG_WIDTH" value="570"/>
 			<item key="DIALOG_HEIGHT" value="550"/>
 			<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
