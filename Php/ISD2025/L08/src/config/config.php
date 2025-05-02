@@ -1,11 +1,14 @@
 <?php
 
+error_reporting(E_ALL);
+
 define('HOST', 'localhost:3306');
 define('USER', 'ITS_2025');
 define('PASS', 'ITS_2025');
 
 define('DB_NAME', 'esercitazioni');
 
+define('TITOLO', 'Automobili');
 define('TABLE', 'automobili');
 
 //model

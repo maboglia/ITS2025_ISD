@@ -1,12 +1,12 @@
 <?php
 
-class Automobile {
+class Automobile implements JsonSerializable{
 
     private $id;
     private $marca;
     private $modello;
     private $cilindrata;
-    private $post;
+    private $posti;
     private $prezzo;
 
     public function __get($nomeVariabile) {
@@ -15,6 +15,14 @@ class Automobile {
 
     public function __set($nomeVariabile, $valoreVariabile){
         $this->$nomeVariabile = $valoreVariabile;
+    }
+
+    public function jsonSerialize(){
+        return [
+            'marca'=>$this->marca,
+            'modello'=>$this->modello,
+            'prezzo'=> number_format( $this->prezzo * 1.1, 2, ',','.' ),
+        ];
     }
 
 }

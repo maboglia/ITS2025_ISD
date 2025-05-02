@@ -12,4 +12,8 @@ class AutomobileServiceImpl implements AutomobileService {
         return $this->dao->getAutomobili();
     }
 
+    public function save($automobile){
+        $this->dao->save($automobile);
+    }
+
 }

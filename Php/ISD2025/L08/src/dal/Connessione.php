@@ -6,7 +6,7 @@ class Connessione{
     private function connetti(){
         try {
             $this->conn = new PDO($this->dsn, USER, PASS);
-            echo "Connessione avvenuta con successo!";
+            //echo "Connessione avvenuta con successo!";
         } catch (PDOException $e) {
             throw new PDOException($e->getMessage(), (int)$e->getCode());
         }
