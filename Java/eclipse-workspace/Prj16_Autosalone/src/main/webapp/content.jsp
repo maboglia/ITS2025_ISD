@@ -2,9 +2,9 @@
 <%@page import="java.util.List"%>
 <div class="container">
 
-    <h1><%= TITOLO %></h1>
+    <h1><%= request.getAttribute("TITOLO") %></h1>
 
-    <form action="" method="post">
+    <form action="http://localhost:8000/ITS2025_ISD/Php/ISD2025/L08/public/" method="post">
 
         <div>
             <label for="marca">Marca</label>

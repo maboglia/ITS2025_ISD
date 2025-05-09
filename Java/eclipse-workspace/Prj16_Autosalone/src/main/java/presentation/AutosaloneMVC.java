@@ -24,6 +24,9 @@ public class AutosaloneMVC extends HttpServlet{
 
 		request.getRequestDispatcher("header.jsp").include(request, response);
 
+//		final String TITOLO = "Automobili";
+		
+		request.setAttribute("TITOLO", "Automobili");
 		request.setAttribute("automobili", this.service.getAutomobili());
 
 		request.getRequestDispatcher("content.jsp").include(request, response);
