@@ -10,11 +10,21 @@ class AutomobiliMVC{
 
     public function index() {
         
+        // request.getRequestDispatcher("header.jsp").include(request, response);
         include '../src/view/header.php';
+
+        // request.setAttribute("automobili", this.service.getAutomobili());
         $automobili = $this->service->getAutomobili();
+        
+        // request.getRequestDispatcher("content.jsp").include(request, response);
         include '../src/view/content.php';
+        
+        // request.getRequestDispatcher("footer.jsp").include(request, response);
         include '../src/view/footer.php';
     }
+
+
+
 
     public function save(){
 
