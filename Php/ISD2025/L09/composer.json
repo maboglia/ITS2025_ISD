@@ -1,0 +1,20 @@
+{
+    "name": "m.bogliaccino/l09",
+    "description": "Hello composer",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mauro Bogliaccino",
+            "email": "mauro.bogliaccino@gmail.com"
+        }
+    ],
+    "require": {
+        "nikic/fast-route": "^1.3"
+    }
+}
