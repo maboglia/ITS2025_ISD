@@ -14,6 +14,8 @@ public class Laboratorio {
 	
 	public static void main(String[] args) {
 
+		
+		
 		Laboratorio lab = new Laboratorio();
 		lab.procedura();
 		String parolaCasuale = lab.parolaCasuale("amore", "cuore", "pizza");
