@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<h1>Editori</h1>
+
+	<ul>
+		<li 
+			th:each="e : ${editori}" 
+			th:text="${e.nome}">
+		</li>
+	</ul>
+
+</body>
+</html>
