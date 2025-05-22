@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-Prj17LibreriaSpringApplication<com.maboglia-libreria-spring>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.maboglia.Prj17LibreriaSpringApplication",
+            "projectName": "com.maboglia-libreria-spring",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
