@@ -4,6 +4,7 @@
     <typeInfo handle="=Prj11_CorsoISD/src&lt;repos{CorsoDAO.java[CorsoDAO" modifiers="513" timestamp="1743415106732"/>
     <typeInfo handle="=Prj11_CorsoISD/src&lt;repos{DocenteDAO.java[DocenteDAO" modifiers="513" timestamp="1743417803280"/>
     <typeInfo handle="=Prj12_Pokemon/src&lt;services{PokemonService.java[PokemonService" modifiers="513" timestamp="1744371576766"/>
-    <typeInfo handle="=Prj17_LibreriaSpring/C:\/Users\/m.bogliaccino\/.m2\/repository\/org\/springframework\/data\/spring-data-jpa\/3.4.5\/spring-data-jpa-3.4.5.jar=/maven.pomderived=/true=/=/maven.groupId=/org.springframework.data=/=/maven.artifactId=/spring-data-jpa=/=/maven.version=/3.4.5=/=/maven.scope=/compile=/=/maven.pomderived=/true=/&lt;org.springframework.data.jpa.repository(JpaRepository.class[JpaRepository" modifiers="1537" timestamp="1747303927043"/>
     <typeInfo handle="=Prj18_CorsoISD/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.maboglia.services{CorsoService.java[CorsoService" modifiers="513" timestamp="1747735584832"/>
+    <typeInfo handle="=Prj17_LibreriaSpring/C:\/Users\/m.bogliaccino\/.m2\/repository\/org\/springframework\/data\/spring-data-jpa\/3.4.5\/spring-data-jpa-3.4.5.jar=/maven.pomderived=/true=/=/maven.groupId=/org.springframework.data=/=/maven.artifactId=/spring-data-jpa=/=/maven.version=/3.4.5=/=/maven.scope=/compile=/=/maven.pomderived=/true=/&lt;org.springframework.data.jpa.repository(JpaRepository.class[JpaRepository" modifiers="1537" timestamp="1747303927043"/>
+    <typeInfo handle="=Prj19_MagazzinoSpring/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.maboglia.services{MagazzinoService.java[MagazzinoService" modifiers="513" timestamp="1747906980034"/>
 </typeInfoHistroy>

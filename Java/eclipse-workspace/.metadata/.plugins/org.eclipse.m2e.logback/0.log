@@ -5680,3 +5680,12 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.aspectj:a
 2025-05-22 12:40:28,648 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2025-05-22 12:40:28,652 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
 2025-05-22 12:40:28,656 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\xampp\htdocs\ITS2025_ISD\Java\eclipse-workspace\Prj19_MagazzinoSpring\src\test\resources
+2025-05-22 13:02:18,802 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-22 13:02:18,834 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-22 13:02:18,841 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\xampp\htdocs\ITS2025_ISD\Java\eclipse-workspace\Prj17_LibreriaSpring\src\test\resources
+2025-05-22 13:02:19,311 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-22 13:02:19,346 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-22 13:02:19,353 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\xampp\htdocs\ITS2025_ISD\Java\eclipse-workspace\Prj18_CorsoISD\src\test\resources
+2025-05-22 13:02:20,335 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-22 13:02:20,353 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2025-05-22 13:02:20,358 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\xampp\htdocs\ITS2025_ISD\Java\eclipse-workspace\hello-spring\src\test\resources
