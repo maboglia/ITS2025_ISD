@@ -11,6 +11,7 @@
 		//scriptlet
 		String s = "ITS 2025";
 		out.print("<h2>" + s + "</h2>");
+		out.print(session.getAttribute("logged"));
 	%>
 	
 	<h3><%= s %></h3>

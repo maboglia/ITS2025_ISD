@@ -1,0 +1,9 @@
+2025-06-11 09:58:30.901790+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PRODOTTI" already exists; SQL statement:
+CREATE TABLE prodotti ( id INT PRIMARY KEY AUTO_INCREMENT, nome VARCHAR(100) NOT NULL, categoria VARCHAR(50), origine VARCHAR(100), prezzo_kg DECIMAL(5,2), disponibilita ENUM('alta', 'media', 'bassa') ) [42101-232]
+2025-06-11 09:58:46.513545+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PRODOTTI" already exists; SQL statement:
+CREATE TABLE prodotti ( id INT PRIMARY KEY AUTO_INCREMENT, nome VARCHAR(100) NOT NULL, categoria VARCHAR(50), origine VARCHAR(100), prezzo_kg DECIMAL(5,2), disponibilita ENUM('alta', 'media', 'bassa') ) [42101-232]
+2025-06-11 12:44:16.038688+02:00 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'2Alta' (PRODOTTI: ""PREZZO_KG"" DECIMAL(5, 2))"; SQL statement:
+insert into prodotti (categoria,disponibilita,nome,origine,prezzo_kg,id) values (?,?,?,?,?,default) [22018-232]

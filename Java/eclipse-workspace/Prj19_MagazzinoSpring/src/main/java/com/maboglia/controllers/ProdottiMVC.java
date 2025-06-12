@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 import com.maboglia.services.MagazzinoService;
 
+import jakarta.servlet.http.HttpSession;
+
 
 @Controller
 public class ProdottiMVC {

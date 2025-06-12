@@ -13,6 +13,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Prj19_MagazzinoSpring</name>
 	<description>Demo project for Spring Boot</description>
+	<packaging>jar</packaging>
 	<url/>
 	<licenses>
 		<license/>
